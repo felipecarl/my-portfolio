@@ -77,6 +77,7 @@ export interface Project {
   subtitle: string;
   status: string;
   shotLabel: string;
+  image?: { src: string; alt: string; width: number; height: number };
   body: string;
   tech: string[];
 }
@@ -87,6 +88,12 @@ export const projects: Project[] = [
     subtitle:
       "A production management platform that replaced manual workflows for a regional optical business.",
     status: "Private client project — details in interviews",
+    image: {
+      src: "/images/scussel-dashboard.jpg",
+      alt: "Optical store management system showing a customer list with search by name and CPF",
+      width: 900,
+      height: 403,
+    },
     shotLabel: "Screenshot placeholder — dashboard & records",
     body: "Designed and built the complete application — data modeling, frontend, backend APIs, auth, and role-based permissions. Currently in production with 5,000+ registered customer records, replacing fragmented manual processes.",
     tech: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Docker"],

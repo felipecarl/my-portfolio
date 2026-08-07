@@ -103,8 +103,18 @@ export function Projects() {
                 <span className={styles.statusPill}>{proj.status}</span>
               </div>
               <p className={styles.cardSubtitle}>{proj.subtitle}</p>
-              <div className={styles.shot}>
-                <span className={styles.shotLabelSmall}>{proj.shotLabel}</span>
+              <div className={`${styles.shot} ${!proj.image ? styles.shotPlaceholder : ""}`}>
+                {proj.image ? (
+                  <Image
+                    src={proj.image.src}
+                    alt={proj.image.alt}
+                    width={proj.image.width}
+                    height={proj.image.height}
+                    className={styles.shotImg}
+                  />
+                ) : (
+                  <span className={styles.shotLabelSmall}>{proj.shotLabel}</span>
+                )}
               </div>
               <p className={styles.cardBody}>{proj.body}</p>
               <div className={styles.techRow}>
