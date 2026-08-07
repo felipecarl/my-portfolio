@@ -6,7 +6,7 @@ export function Experience() {
     <section id="experience" className="section">
       <div className="sectionInner">
         <div className="eyebrow">Experience</div>
-        <h2 className="h2">Where I&apos;ve worked</h2>
+        <h2 className="h2">My Journey</h2>
         <div className={styles.timeline}>
           {experience.map((job) => (
             <div key={job.company} className={styles.item}>

@@ -19,7 +19,7 @@ export function Contact() {
     <section id="contact" className="section">
       <div className="contactInner">
         <div className="eyebrow">Contact</div>
-        <h2 className="h2">Let&apos;s build something useful.</h2>
+        <h2 className="h2">Let&apos;s build something meaningful.</h2>
         <p className={styles.sub}>
           I&apos;m open to remote Full-Stack and Product Engineering opportunities with U.S. and
           international teams.
