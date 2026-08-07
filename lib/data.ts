@@ -278,6 +278,8 @@ export const highlights: Highlight[] = [
 export const focusAreas = [
   "React",
   "TypeScript",
+  "JavaScript",
+  "Node.js",
   "NestJS",
   "Design Systems",
   "Micro-Frontends",

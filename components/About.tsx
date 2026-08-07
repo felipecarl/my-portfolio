@@ -54,7 +54,7 @@ export function About() {
             </div>
             <div className={styles.row}>
               <CodeIcon />
-              <span>React, TypeScript, NestJS, PostgreSQL</span>
+              <span>React, TypeScript, JavaScript, Node.js, NestJS, PostgreSQL</span>
             </div>
             <div className={styles.divider} />
             <div className={styles.focusLabel}>Focus areas</div>

@@ -21,8 +21,8 @@ export function Contact() {
         <div className="eyebrow">Contact</div>
         <h2 className="h2">Let&apos;s build something useful.</h2>
         <p className={styles.sub}>
-          I&apos;m open to remote Full-Stack, Backend, and Product Engineering opportunities with
-          U.S. and international teams.
+          I&apos;m open to remote Full-Stack and Product Engineering opportunities with U.S. and
+          international teams.
         </p>
         <div className={styles.grid}>
           <form className={styles.form} onSubmit={handleSubmit}>
