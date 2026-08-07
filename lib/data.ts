@@ -12,7 +12,7 @@ export const experience: ExperienceEntry[] = [
     company: "BEES / AB InBev",
     role: "Software Engineer",
     model: "Remote",
-    period: "April 2022 – Present",
+    period: "Current Role",
     showLine: true,
     points: [
       "Built and evolved frontend experiences for a large-scale B2B commerce platform operating across 15 countries",
