@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .bg { fill: #0B0D10; }
+    .fg { fill: #EDEFF2; }
+    .dot { fill: #E8963C; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #FAFAF8; }
+      .fg { fill: #1B1A17; }
+      .dot { fill: #B4590F; }
+    }
+  </style>
+  <rect class="bg" width="32" height="32" rx="7" />
+  <text class="fg" x="8.5" y="23" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="18">F</text>
+  <circle class="dot" cx="23.5" cy="21.5" r="2.3" />
+</svg>
