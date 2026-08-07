@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 22px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.index {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 16.5px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}

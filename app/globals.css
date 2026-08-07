@@ -1,0 +1,161 @@
+:root,
+:root[data-theme="dark"] {
+  --bg: #0b0d10;
+  --surface: #14171b;
+  --surface-2: #1b1f24;
+  --surface-hover: #20242a;
+  --border: #262b31;
+  --border-strong: #33393f;
+  --text: #edeff2;
+  --text-muted: #9aa3ad;
+  --text-faint: #6b7280;
+  --accent: #e8963c;
+  --accent-text: #1a1200;
+  --accent-soft: rgba(232, 150, 60, 0.12);
+  --accent-border: rgba(232, 150, 60, 0.35);
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+:root[data-theme="light"] {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --surface-2: #f3f1ec;
+  --surface-hover: #efede7;
+  --border: #e6e3dc;
+  --border-strong: #d6d2c7;
+  --text: #1b1a17;
+  --text-muted: #5b584f;
+  --text-faint: #88847a;
+  --accent: #b4590f;
+  --accent-text: #ffffff;
+  --accent-soft: rgba(180, 89, 15, 0.09);
+  --accent-border: rgba(180, 89, 15, 0.3);
+  --shadow: 0 8px 30px rgba(20, 15, 5, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(232, 150, 60, 0.35);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shared section scaffolding reused by About/Experience/Projects/Skills/
+   Principles/Contact — kept here once instead of duplicated per CSS Module. */
+.section {
+  padding: clamp(56px, 7vw, 96px) clamp(20px, 4vw, 40px);
+  border-top: 1px solid var(--border);
+}
+
+.sectionAlt {
+  padding: clamp(56px, 7vw, 96px) clamp(20px, 4vw, 40px);
+  border-top: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.sectionInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contactInner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 14px;
+}
+
+.h2 {
+  font-size: clamp(24px, 3.4vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 32px;
+  color: var(--text);
+}
+
+.p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-muted);
+  margin: 0 0 18px;
+  max-width: 640px;
+  text-wrap: pretty;
+}
+
+.pNote {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text-faint);
+  margin: 0;
+  max-width: 640px;
+  text-wrap: pretty;
+}
+
+/* CTA buttons reused across Hero and Projects */
+.ctaPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent);
+  color: var(--accent-text);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 13px 22px;
+  border-radius: 10px;
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--border-strong);
+}
