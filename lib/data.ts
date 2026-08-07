@@ -83,23 +83,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Developer Portal",
-    subtitle:
-      "An international developer documentation platform enhanced with AI-powered discovery.",
-    status: "Professional project — source confidential",
-    shotLabel: "Screenshot placeholder — documentation UI",
-    body: "Contributes to an internal company developer portal used to centralize technical documentation. Improved frontend architecture, navigation, and internationalization (EN/PT/ES), and integrated AI chat and smart search into the documentation experience.",
-    tech: ["React", "TypeScript", "Docusaurus", "i18n", "CI/CD"],
-  },
-  {
-    title: "Touchscreen Transaction Kiosk",
-    subtitle: "A responsive touch-first interface for fuel station customer workflows.",
-    status: "Professional project — source confidential",
-    shotLabel: "Screenshot placeholder — kiosk interface",
-    body: "Architected and developed a touchscreen kiosk for a fuel station chain: transaction workflows, a virtual keyboard, real-time confirmation through server events, receipt delivery, and reconnection handling for a public-facing operational interface.",
-    tech: ["React", "TypeScript", "Material UI", "Effector"],
-  },
-  {
     title: "Optical Store Management System",
     subtitle:
       "A production management platform that replaced manual workflows for a regional optical business.",

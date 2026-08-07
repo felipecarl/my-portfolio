@@ -189,6 +189,7 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
+  max-width: 420px;
 }
 
 .cardHead {
