@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { prTrackerTech } from "@/lib/data";
+import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "PR Tracker Case Study | Felipe Carl",
@@ -25,6 +27,28 @@ export default function PrTrackerCaseStudy() {
           Architecture, implementation details, and a full product walkthrough are available on
           request during interviews.
         </p>
+
+        <div className={styles.gallery}>
+          <div className={styles.shot}>
+            <Image
+              src="/images/pr-tracker-dashboard.png"
+              alt="PR Tracker dashboard showing tracked pull requests across repositories with status, SLA, and approval columns"
+              width={1280}
+              height={717}
+              className={styles.shotImg}
+            />
+          </div>
+          <div className={styles.shot}>
+            <Image
+              src="/images/pr-tracker-signin.png"
+              alt="PR Tracker sign-in screen with password and email-link authentication options"
+              width={1280}
+              height={713}
+              className={styles.shotImg}
+            />
+          </div>
+        </div>
+
         <Link href="/#projects" className="ctaSecondary">
           Back to Projects
         </Link>

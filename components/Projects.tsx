@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { prTrackerTech, projects, site } from "@/lib/data";
 import { ArrowIcon } from "./icons";
@@ -12,19 +13,34 @@ export function Projects() {
 
         <div className={styles.featuredCard}>
           <div className={styles.featuredTopRow}>
-            <div>
-              <div className={styles.featuredKicker}>Primary project</div>
-              <h3 className={styles.featuredTitle}>PR Tracker</h3>
-              <p className={styles.featuredSubtitle}>
-                A full-stack SaaS platform for centralizing pull request visibility and
-                engineering workflows.
-              </p>
+            <div className={styles.featuredHeading}>
+              <Image
+                src="/images/pr-tracker-logo.png"
+                alt=""
+                width={40}
+                height={40}
+                className={styles.featuredLogo}
+              />
+              <div>
+                <div className={styles.featuredKicker}>Primary project</div>
+                <h3 className={styles.featuredTitle}>PR Tracker</h3>
+                <p className={styles.featuredSubtitle}>
+                  A full-stack SaaS platform for centralizing pull request visibility and
+                  engineering workflows.
+                </p>
+              </div>
             </div>
             <span className={styles.statusPillPrivate}>Private repository</span>
           </div>
 
           <div className={styles.featuredShot}>
-            <span className={styles.shotLabel}>Product screenshot placeholder — dashboard overview</span>
+            <Image
+              src="/images/pr-tracker-dashboard.png"
+              alt="PR Tracker dashboard showing tracked pull requests across repositories with status, SLA, and approval columns"
+              width={1280}
+              height={717}
+              className={styles.featuredShotImg}
+            />
           </div>
 
           <div className={styles.featuredBody}>
