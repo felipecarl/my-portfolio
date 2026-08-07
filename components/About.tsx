@@ -10,28 +10,36 @@ export function About() {
         <div className={styles.grid}>
           <div>
             <p className="p">
-              I&apos;m a Software Engineer from Blumenau, Brazil, with over six years of
-              experience building web applications for local businesses and international
+              I&apos;m a Software Engineer from Blumenau, Brazil, with 6+ years of experience
+              building and evolving web applications for both local businesses and international
               organizations.
             </p>
             <p className="p">
-              My strongest background is in frontend engineering with React and TypeScript,
-              including design systems, micro-frontends, responsive applications, developer
-              portals, and complex operational interfaces.
+              My strongest background is in frontend engineering with React and TypeScript, where
+              I&apos;ve worked on design systems, micro-frontends, developer portals, responsive
+              applications, and complex operational interfaces. Over time, I also expanded into
+              full-stack development using Node.js, NestJS, Prisma, and PostgreSQL, which allows
+              me to work across the full product lifecycle rather than only one layer of the
+              stack.
             </p>
             <p className="p">
-              I also build full-stack applications with NestJS, Prisma, and PostgreSQL. I enjoy
-              taking ownership of a product or feature from the initial problem through
-              architecture, implementation, testing, documentation, and release.
+              What I enjoy most is taking an unclear problem and turning it into a well-structured
+              solution — understanding the business need, defining the architecture, implementing
+              the feature, testing it, documenting it, and helping take it to production. I care a
+              lot about maintainability, clear responsibilities, reusable patterns, and making
+              technical decisions that support the product instead of adding unnecessary
+              complexity.
             </p>
             <p className="p">
-              I work comfortably with distributed teams, communicate fluently in English, and
-              value autonomy, thoughtful engineering decisions, and products that solve real
-              operational problems.
+              I have experience working with distributed and international teams, collaborating
+              closely with engineers, designers, QA, product, and business stakeholders. I
+              communicate fluently in English and value autonomy, ownership, thoughtful
+              engineering discussions, and environments where developers are encouraged to
+              understand the problem, not just implement tickets.
             </p>
             <p className="pNote">
-              Outside of software, I enjoy playing padel and tennis, learning musical instruments,
-              and building personal products.
+              Outside of software, I enjoy playing racket sports, learning musical instruments,
+              and building personal products and experiments.
             </p>
           </div>
 
