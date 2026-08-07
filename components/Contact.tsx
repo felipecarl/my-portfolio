@@ -62,7 +62,7 @@ export function Contact() {
             </a>
             <a href={site.linkedinUrl} target="_blank" rel="noopener" className={styles.linkRow}>
               <LinkedinIcon />
-              <span>linkedin.com/in/felipecarl</span>
+              <span>linkedin.com/in/felipe-carl</span>
             </a>
             <a href={site.githubUrl} target="_blank" rel="noopener" className={styles.linkRow}>
               <GithubIcon />

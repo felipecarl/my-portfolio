@@ -265,10 +265,9 @@ export const focusAreas = [
   "SaaS Architecture",
 ];
 
-// TODO(felipe): swap these placeholders for your real profile URLs and domain.
 export const site = {
-  githubUrl: "https://github.com/",
-  linkedinUrl: "https://linkedin.com/",
+  githubUrl: "https://github.com/felipecarl",
+  linkedinUrl: "https://www.linkedin.com/in/felipe-carl/",
   email: "hello@felipecarl.dev",
   resumeUrl: "/resume-felipe-carl.pdf",
   domain: "https://felipecarl.dev",
