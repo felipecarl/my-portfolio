@@ -20,24 +20,24 @@ const plexMono = IBM_Plex_Mono({
   display: "swap",
 });
 
-const title = "Felipe Carl | Frontend & Full-Stack Software Engineer";
+const title = "Felipe Carl | Full-Stack Software Engineer";
 const description =
-  "Frontend and Full-Stack Software Engineer with 6+ years of experience building React, TypeScript, SaaS, micro-frontend, design system, and developer platform solutions for international teams.";
+  "Full-Stack Software Engineer with 6+ years of experience building React, TypeScript, Node.js, NestJS, SaaS, micro-frontend, design system, and developer platform solutions for international teams.";
 
 export const metadata: Metadata = {
-  // TODO(felipe): swap for your real domain once you have one.
   metadataBase: new URL(site.domain),
   title,
   description,
   keywords: [
+    "Full-Stack Software Engineer",
     "React Software Engineer",
     "TypeScript Developer",
+    "NestJS Developer",
+    "Node.js Developer",
     "Frontend Engineer",
-    "Full-Stack Engineer",
     "Remote Software Engineer",
     "Brazilian Software Engineer",
     "LATAM Developer",
-    "NestJS Developer",
     "SaaS Engineer",
     "Design Systems",
     "Micro-Frontends",
